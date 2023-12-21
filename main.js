@@ -18,7 +18,19 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
+    <button class="blur-button">Click Me</button>
   </div>
 `
 
 setupCounter(document.querySelector('#counter'))
+
+
+const axios = require('axios');
+
+// axios.get('https://example.com')
+//   .then(response => {
+//     console.log(response.data);
+//   })
+//   .catch(error => {
+//     console.error(error);
+//   });
